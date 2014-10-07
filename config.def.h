@@ -5,9 +5,9 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char font[] = "Liberation Mono:pixelsize=12:antialias=false:autohint=false";
+static char font[] = "Terminus:pixelsize=18:antialias=false:autohint=false";
 static int borderpx = 2;
-static char shell[] = "/bin/sh";
+static char shell[] = "/bin/bash";
 
 /* Kerning / character bounding-box mutlipliers */
 float cwscale = 1.0;
@@ -103,7 +103,7 @@ static Mousekey mshortcuts[] = {
 };
 
 /* Internal keyboard shortcuts. */
-#define MODKEY Mod1Mask
+#define MODKEY Mod4Mask //Mod1Mask
 
 static Shortcut shortcuts[] = {
 	/* mask                 keysym          function        argument */
